@@ -2,7 +2,7 @@ package com.alltasks;
 
 import java.util.Scanner;
  
-public class Taska28 {
+public class Taska28SwapNum {
 	static Scanner sc = new Scanner(System.in);
 	//without temp
 	static void method() {
@@ -34,6 +34,19 @@ public class Taska28 {
 		System.out.println("after swap a value:" + a);
 		System.out.println("after swap b value:" + b);
 
+	}
+	static void BitOPerator() {
+		System.out.print("enter value a:");
+		int a = sc.nextInt();
+		System.out.print("enter value b:");
+		int b = sc.nextInt();
+		System.out.println("before swap a value:" + a);
+		System.out.println("before swap b value:" + b);
+	  a=a^b;//30
+	  b=a^b;
+	  a=a^b;
+	  System.out.println("after swap a value:" + a);
+	  System.out.println("after swap b value:" + b);
 	}
 
 
